@@ -13,10 +13,12 @@ a different beat other than the default ones included.
 
 basic usage:
 
-Generate a single WAV file using the provided beat.wav with just 1 beat.
+Generate a single WAV file using the provided beat.wav with just 1 beat:
+
 `python3 generate.py --beats=1`
 
-Generate a range of WAV files for every 10th BPM between 40 BPM and 200BPM with 4 beats and an emphasis on the 4th beat.
+Generate a range of WAV files for every 10th BPM between 40 BPM and 200BPM with 4 beats and an emphasis on the 4th beat:
+
 `python3 generate.py --bpmRange=40-200 --beats=4 --beatEmph=4 --emphWave=emphasis.wav --rangeStep=10`
 
 Display help

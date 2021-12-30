@@ -23,7 +23,7 @@ Generate a range of WAV files for every 10th BPM between 40 BPM and 200BPM with 
 
 Display help
 
-`python3 generate.py --help
+```python3 generate.py --help
 usage: generate.py [-h] [--bpm BPM] [--bpmRange BPMRANGE] [--rangeStep RANGESTEP] [--beats BEATS] [--beatEmph BEATEMPH] [--beatWave BEATWAVE] [--emphWave EMPHWAVE] [--db DB] [--folder FOLDER]
 
 Create WAV files to use your TC Electronics Ditto+ Looper as a Metronome.
@@ -40,7 +40,7 @@ optional arguments:
   --emphWave EMPHWAVE   Full path to the WAV file containing the empahsis beat to be used.
   --db DB               The volume of the input WAV files will be amplified by the number of decibles specified. eg: It makes the output WAV files louder, bigger numbers = louder output.
   --folder FOLDER       Full path to the folder the WAV file output should be written to.
-`
+```
 
 One thing I noticed is that WAV files over about 140BPM with just 1 beat are not
 detected by the Ditto+.  I'm not sure if it's due to too small of file or being too short
